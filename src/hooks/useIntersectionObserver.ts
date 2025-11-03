@@ -27,7 +27,6 @@ export const useIntersectionObserver = (
           setHasIntersected(true);
         }
         
-        // Si triggerOnce es true y ya se intersectó, desconectar el observer
         if (options.triggerOnce && isIntersectingNow) {
           observer.unobserve(element);
         }

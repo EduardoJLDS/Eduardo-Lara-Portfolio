@@ -1,7 +1,7 @@
 import { Github, Linkedin, Mail, Download, ArrowDown } from 'lucide-react';
 import heroBackgroundGif from '../../assets/images/hero-background.gif';
 import { useLanguage } from '../../hooks';
-
+import { OptimizedImage } from '../index';
 
 export default function Hero() {
   const { t, language } = useLanguage();
@@ -18,15 +18,16 @@ export default function Hero() {
   };
   
   return (
-    <section id="home" className="min-h-screen flex items-center justify-center relative overflow-hidden">
+    <section id="home" className="min-h-screen flex items-center justify-center relative overflow-hidden critical-resource">
       <div className="absolute inset-0 w-full h-full">
-        <img 
-          src={heroBackgroundGif} 
-          alt="Hero background animation" 
+        <OptimizedImage
+          src={heroBackgroundGif}
+          alt="Hero background animation"
           className="w-full h-full object-cover opacity-100"
+          priority={true}
           loading="eager"
-          decoding="async"
-          fetchPriority="high"
+          width={1920}
+          height={1080}
         />
       </div>
       <div className="absolute inset-0 bg-gray-950/60"></div>
