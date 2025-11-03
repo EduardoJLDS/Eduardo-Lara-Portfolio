@@ -5,6 +5,7 @@
 @layer base {
   html {
     scroll-behavior: smooth;
+    font-display: swap;
   }
 
   body {
@@ -12,6 +13,13 @@
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-rendering: optimizeLegibility;
+    min-height: 100vh;
+    overflow-x: hidden;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
   }
 }
 
@@ -20,17 +28,20 @@
     @apply bg-gradient-to-r from-primary-400 via-primary-500 to-accent-500 bg-clip-text text-transparent;
     background-size: 200% 200%;
     animation: gradient-shift 3s ease infinite;
+    will-change: background-position;
   }
 
   .card-glass {
     @apply bg-white/5 backdrop-blur-lg border border-white/10 rounded-2xl;
     backdrop-filter: blur(16px);
     -webkit-backdrop-filter: blur(16px);
+    min-height: 200px;
   }
 
   .btn-primary {
     @apply bg-gradient-primary text-white px-6 py-3 rounded-lg font-medium hover:shadow-lg hover:shadow-primary-500/50 transition-all duration-300;
     transform: translateZ(0);
+    will-change: transform, box-shadow;
   }
 }
 
