@@ -11,6 +11,15 @@ export const Experience: React.FC = () => {
   };
     return [
       {
+        company: t('experience.experiences.glyff.company'),
+        position: t('experience.experiences.glyff.position'),
+        period: t('experience.experiences.glyff.period'),
+        location: t('experience.experiences.glyff.location'),
+        description: t('experience.experiences.glyff.description'),
+        achievements: getAchievements('glyff'),
+        technologies: ['Shopify', 'Liquid', 'JavaScript', 'CSS3 / SCSS', 'Shopify CLI', 'GraphQL', 'REST APIs', 'Dawn Theme']
+      },
+      {
         company: t('experience.experiences.clorian.company'),
         position: t('experience.experiences.clorian.position'),
         period: t('experience.experiences.clorian.period'),

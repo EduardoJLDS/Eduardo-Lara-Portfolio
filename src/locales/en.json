@@ -8,17 +8,17 @@
   },
   "hero": {
     "name": "Eduardo José Lara Da Silva",
-    "title": "Frontend Developer | React & TypeScript",
-    "description": "Building dynamic and scalable web experiences with modern technologies. Passionate about creating intuitive user interfaces that users love.",
+    "title": "Shopify & Frontend Developer | React, TypeScript & Liquid",
+    "description": "Building high-converting Shopify storefronts and dynamic web experiences with modern technologies. Passionate about crafting performant, pixel-perfect interfaces that drive real business results.",
     "downloadCV": "Download CV",
     "seeMyWork": "See My Work"
   },
   "about": {
     "title": "About",
     "titleHighlight": "Me",
-    "description1": "I'm a passionate Frontend Developer with a strong focus on building modern, responsive, and user-centric web applications. My journey in web development has been driven by a genuine love for creating seamless digital experiences.",
-    "description2": "With expertise in React, TypeScript, and modern CSS frameworks, I transform complex requirements into elegant solutions. I'm constantly learning and adapting to new technologies to stay at the forefront of web development.",
-    "description3": "My proactive approach and attention to detail ensure that every project I work on not only meets technical requirements but also delivers an exceptional user experience.",
+    "description1": "I'm a Shopify Developer and Frontend Engineer with hands-on experience building and customizing high-performance e-commerce storefronts. Currently working at Glyff (Miami), I've delivered 6+ custom Shopify stores for US and Latin American brands.",
+    "description2": "With expertise in Shopify Liquid, React, TypeScript, and modern CSS frameworks, I transform client requirements into elegant, conversion-optimized online stores. Proficient in Shopify CLI, Sections, Blocks, Metafields, and REST & GraphQL APIs.",
+    "description3": "My proactive approach and attention to detail ensure that every storefront I build not only meets technical requirements but also delivers an exceptional shopping experience that converts visitors into customers.",
     "experience": "Experience",
     "projectsCompleted": "Projects Completed",
     "technologiesMastered": "Technologies Mastered",
@@ -95,20 +95,35 @@
           "Implemented responsive design supporting all device sizes",
           "Reduced bug reports by 50% through comprehensive testing"
         ]
+      },
+      "glyff": {
+        "company": "Glyff",
+        "position": "Shopify Developer",
+        "period": "Dec 2025 - Present",
+        "location": "Miami, FL (Remote)",
+        "description": "Building and customizing high-performance Shopify storefronts for international clients across diverse e-commerce verticals. Delivering end-to-end Shopify solutions — from custom Liquid theme development to third-party app integrations and conversion rate optimization.",
+        "achievements": [
+          "Developed and launched 6+ custom Shopify storefronts for US and Latin American brands, driving measurable revenue growth",
+          "Built custom Liquid templates, sections, and blocks enabling merchants to manage content autonomously without developer intervention",
+          "Integrated Shopify REST Admin API and Storefront GraphQL API for dynamic catalog, cart, and checkout experiences",
+          "Optimized Core Web Vitals and store performance, achieving 90+ scores on Google PageSpeed Insights across all projects",
+          "Collaborated with designers and clients to deliver pixel-perfect, fully responsive storefronts on time and within scope"
+        ]
       }
     }
   },
   "projects": {
     "title": "Featured",
     "titleHighlight": "Projects",
-    "description": "A showcase of my recent work and personal projects",
+    "description": "A showcase of my recent work — Shopify storefronts and personal web development projects",
     "featured": "Featured",
-    "viewProject": "Demo",
+    "clientProject": "Client Project",
+    "viewProject": "Live Site",
     "viewCode": "Code",
     "viewMoreGithub": "View More on GitHub"
   },
   "footer": {
-    "description": "Frontend Developer passionate about creating beautiful and functional web experiences.",
+    "description": "Shopify & Frontend Developer passionate about building high-converting storefronts and beautiful web experiences.",
     "quickLinks": "Quick Links",
     "contact": "Get In Touch",
     "availability": "Available for freelance projects and full-time opportunities.",

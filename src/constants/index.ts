@@ -1,11 +1,11 @@
 export const PERSONAL_INFO = {
   name: 'Eduardo José Lara Da Silva',
-  title: 'Frontend Developer | React & TypeScript',
+  title: 'Shopify & Frontend Developer | React, TypeScript & Liquid',
   email: 'eduardo@example.com',
   location: 'Available Remote',
   experience: '3+ Years',
-  projectsCompleted: '25+',
-  technologiesMastered: '15+',
+  projectsCompleted: '15+',
+  technologiesMastered: '18+',
 } as const;
 
 export const SOCIAL_LINKS = {

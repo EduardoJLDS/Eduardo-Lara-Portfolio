@@ -12,7 +12,9 @@ import {
   SiSupabase, 
   SiGit,
   SiTestinglibrary,
-  SiOpenapiinitiative
+  SiOpenapiinitiative,
+  SiShopify,
+  SiGraphql
 } from 'react-icons/si';
 import { Database, Server, Code2, Layers } from 'lucide-react';
 
@@ -41,18 +43,22 @@ export default function Skills() {
   };
 
   const frontendSkills = [
+    { name: 'Shopify', level: 'expert', icon: SiShopify },
+    { name: 'Liquid', level: 'expert', icon: Code2 },
     { name: 'React', level: 'expert', icon: SiReact },
-    { name: 'TypeScript', level: 'advanced', icon: SiTypescript },
     { name: 'JavaScript', level: 'expert', icon: SiJavascript },
-    { name: 'Next.js', level: 'advanced', icon: SiNextdotjs },
+    { name: 'TypeScript', level: 'advanced', icon: SiTypescript },
     { name: 'HTML5', level: 'expert', icon: SiHtml5 },
-    { name: 'CSS3', level: 'expert', icon: SiCss3 },
+    { name: 'CSS3 / SCSS', level: 'expert', icon: SiCss3 },
     { name: 'Tailwind CSS', level: 'expert', icon: SiTailwindcss },
+    { name: 'Next.js', level: 'advanced', icon: SiNextdotjs },
     { name: 'Zustand', level: 'intermediate', icon: Layers },
     { name: 'Vitest', level: 'intermediate', icon: SiTestinglibrary }
   ];
 
   const backendSkills = [
+    { name: 'Shopify APIs', level: 'advanced', icon: SiShopify },
+    { name: 'GraphQL', level: 'advanced', icon: SiGraphql },
     { name: 'Node.js', level: 'advanced', icon: SiNodedotjs },
     { name: 'REST APIs', level: 'advanced', icon: Server },
     { name: 'PostgreSQL', level: 'intermediate', icon: SiPostgresql },

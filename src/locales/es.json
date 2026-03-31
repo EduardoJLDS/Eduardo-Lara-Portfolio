@@ -8,17 +8,17 @@
   },
   "hero": {
     "name": "Eduardo José Lara Da Silva",
-    "title": "Desarrollador Frontend | React & TypeScript",
-    "description": "Construyendo experiencias web dinámicas y escalables con tecnologías modernas. Apasionado por crear interfaces de usuario intuitivas que los usuarios aman.",
+    "title": "Desarrollador Shopify & Frontend | React, TypeScript y Liquid",
+    "description": "Construyendo tiendas Shopify de alta conversión y experiencias web dinámicas con tecnologías modernas. Apasionado por crear interfaces eficientes y pixel-perfect que generan resultados reales para los negocios.",
     "downloadCV": "Descargar CV",
     "seeMyWork": "Ver Mi Trabajo"
   },
   "about": {
     "title": "Acerca de",
     "titleHighlight": "Mí",
-    "description1": "Soy un Desarrollador Frontend apasionado con un fuerte enfoque en la construcción de aplicaciones web modernas, responsivas y centradas en el usuario. Mi viaje en el desarrollo web ha sido impulsado por un amor genuino por crear experiencias digitales perfectas.",
-    "description2": "Con experiencia en React, TypeScript y frameworks CSS modernos, transformo requisitos complejos en soluciones elegantes. Estoy constantemente aprendiendo y adaptándome a nuevas tecnologías para mantenerme a la vanguardia del desarrollo web.",
-    "description3": "Mi enfoque proactivo y atención al detalle aseguran que cada proyecto en el que trabajo no solo cumpla con los requisitos técnicos, sino que también ofrezca una experiencia de usuario excepcional.",
+    "description1": "Soy Desarrollador Shopify y Desarrollador Frontend con experiencia práctica construyendo y personalizando tiendas e-commerce de alto rendimiento. Actualmente trabajando en Glyff (Miami), donde he entregado 6+ tiendas Shopify personalizadas para marcas de EE.UU y Latinoamérica.",
+    "description2": "Con experiencia en Shopify Liquid, React, TypeScript y frameworks CSS modernos, transformo los requerimientos de clientes en tiendas online elegantes y optimizadas para conversión. Manejo Shopify CLI, Sections, Blocks, Metafields y las APIs REST y GraphQL de Shopify.",
+    "description3": "Mi enfoque proactivo y atención al detalle garantizan que cada tienda que construyo no solo cumpla los requisitos técnicos, sino que también ofrezca una experiencia de compra excepcional que convierte visitantes en clientes.",
     "experience": "Experiencia",
     "projectsCompleted": "Proyectos Completados",
     "technologiesMastered": "Tecnologías Dominadas",
@@ -95,20 +95,35 @@
           "Implementé diseño responsivo compatible con todos los tamaños de dispositivos",
           "Reduje reportes de bugs en un 50% mediante pruebas exhaustivas"
         ]
+      },
+      "glyff": {
+        "company": "Glyff",
+        "position": "Desarrollador Shopify",
+        "period": "Dic 2025 - Presente",
+        "location": "Miami, FL (Remoto)",
+        "description": "Construyendo y personalizando tiendas Shopify de alto rendimiento para clientes internacionales en diversos sectores del e-commerce. Entregando soluciones Shopify end-to-end: desde desarrollo de temas Liquid personalizados hasta integración de aplicaciones y optimización de la tasa de conversión.",
+        "achievements": [
+          "Desarrollé y lancé 6+ tiendas Shopify personalizadas para marcas de EE.UU y Latinoamérica, generando crecimiento de ingresos medible",
+          "Construí templates Liquid, secciones y bloques personalizados que permiten a los comerciantes gestionar su contenido sin intervención de desarrollo",
+          "Integré la REST Admin API y la Storefront GraphQL API de Shopify para experiencias dinámicas de catálogo, carrito y checkout",
+          "Optimicé Core Web Vitals y rendimiento de tiendas, alcanzando puntajes 90+ en Google PageSpeed Insights en todos los proyectos",
+          "Colaboré con diseñadores y clientes para entregar storefronts completamente responsivos y pixel-perfect en tiempo y dentro del presupuesto"
+        ]
       }
     }
   },
   "projects": {
     "title": "Proyectos",
     "titleHighlight": "Destacados",
-    "description": "Una muestra de mi trabajo reciente y proyectos personales",
+    "description": "Una muestra de mi trabajo reciente — tiendas Shopify para clientes y proyectos de desarrollo web personales",
     "featured": "Destacado",
-    "viewProject": "Demo",
+    "clientProject": "Proyecto de Cliente",
+    "viewProject": "Ver Tienda",
     "viewCode": "Código",
     "viewMoreGithub": "Ver Más en GitHub"
   },
   "footer": {
-    "description": "Desarrollador Frontend apasionado por crear experiencias web hermosas y funcionales.",
+    "description": "Desarrollador Shopify y Frontend apasionado por construir tiendas de alta conversión y experiencias web hermosas y funcionales.",
     "quickLinks": "Enlaces Rápidos",
     "contact": "Ponerse en Contacto",
     "availability": "Disponible para proyectos freelance y oportunidades de tiempo completo.",
