@@ -35,7 +35,6 @@
     @apply bg-white/5 backdrop-blur-lg border border-white/10 rounded-2xl;
     backdrop-filter: blur(16px);
     -webkit-backdrop-filter: blur(16px);
-    min-height: 200px;
   }
 
   .btn-primary {
