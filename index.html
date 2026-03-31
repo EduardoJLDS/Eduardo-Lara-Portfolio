@@ -4,16 +4,60 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Eduardo José Lara Da Silva - Frontend Developer specializing in React, TypeScript, and modern web technologies. Available for freelance projects and full-time opportunities." />
-    <meta name="keywords" content="Frontend Developer, React, TypeScript, JavaScript, Next.js, Web Developer, Portfolio" />
-    <meta name="author" content="Eduardo José Lara Da Silva" />
-    <meta property="og:title" content="Eduardo José Lara Da Silva - Frontend Developer" />
-    <meta property="og:description" content="Frontend Developer specializing in React, TypeScript, and modern web technologies" />
-    <meta property="og:type" content="website" />
-    <title>Eduardo José Lara Da Silva - Frontend Developer Portfolio</title>
+    
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com">
+    <link rel="dns-prefetch" href="https://fonts.gstatic.com">
+    <link rel="dns-prefetch" href="https://images.unsplash.com">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <link rel="preload" href="/src/main.tsx" as="script">
+    <link rel="preload" href="/src/styles/index.css" as="style">
+    
+    <meta name="description" content="Eduardo Lara - Frontend Developer specializing in React, TypeScript, and modern web technologies. Available for freelance projects and full-time opportunities.">
+    <meta name="keywords" content="Eduardo Lara, Frontend Developer, React, TypeScript, Web Development, Portfolio">
+    <meta name="author" content="Eduardo José Lara Da Silva">
+    
+    <meta property="og:title" content="Eduardo Lara - Frontend Developer">
+    <meta property="og:description" content="Frontend Developer specializing in React, TypeScript, and modern web technologies">
+    <meta property="og:type" content="website">
+    
+    <title>Eduardo Lara - Frontend Developer | React & TypeScript</title>
   </head>
   <body>
-    <div id="root"></div>
+    <div id="root">
+      <div style="
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+        background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+        color: white;
+        font-family: Inter, sans-serif;
+      ">
+        <div style="text-align: center;">
+          <div style="
+            width: 40px;
+            height: 40px;
+            border: 3px solid #3b82f6;
+            border-top: 3px solid transparent;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+            margin: 0 auto 16px;
+          "></div>
+          <p>Loading...</p>
+        </div>
+      </div>
+      <style>
+        @keyframes spin {
+          0% { transform: rotate(0deg); }
+          100% { transform: rotate(360deg); }
+        }
+      </style>
+    </div>
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>

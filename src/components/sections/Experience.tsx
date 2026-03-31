@@ -1,7 +1,7 @@
 import { Briefcase, Calendar, MapPin } from 'lucide-react';
 import { useLanguage } from '../../hooks';
 
-export const Experience: React.FC = () => {
+const Experience: React.FC = () => {
   const { t, tArray } = useLanguage();
 
   const getExperiences = () => {
@@ -117,3 +117,5 @@ export const Experience: React.FC = () => {
     </section>
   );
 }
+
+export default Experience;

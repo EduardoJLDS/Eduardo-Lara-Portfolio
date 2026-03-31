@@ -1,11 +1,10 @@
 import { Github, Linkedin, Mail, Download, ArrowDown } from 'lucide-react';
 import heroBackgroundGif from '../../assets/images/hero-background.gif';
 import { useLanguage } from '../../hooks';
-
+import { OptimizedImage } from '../index';
 
 export default function Hero() {
   const { t, language } = useLanguage();
-
   const handleDownload = () => {
     const lang = language;
     const fileName = `cv-${lang}.pdf`;
@@ -19,12 +18,16 @@ export default function Hero() {
   };
   
   return (
-    <section id="home" className="min-h-screen flex items-center justify-center relative overflow-hidden">
+    <section id="home" className="min-h-screen flex items-center justify-center relative overflow-hidden critical-resource">
       <div className="absolute inset-0 w-full h-full">
-        <img 
-          src={heroBackgroundGif} 
-          alt="Hero background animation" 
+        <OptimizedImage
+          src={heroBackgroundGif}
+          alt="Hero background animation"
           className="w-full h-full object-cover opacity-100"
+          priority={true}
+          loading="eager"
+          width={1920}
+          height={1080}
         />
       </div>
       <div className="absolute inset-0 bg-gray-950/60"></div>
@@ -33,7 +36,7 @@ export default function Hero() {
         <div className="max-w-4xl mx-auto text-center">
           <div className="mb-8 inline-block">
           </div>
-          <h1 className="text-5xl md:text-7xl font-bold mb-6 animate-fade-in whitespace-nowrap">
+          <h1 className="text-5xl md:text-7xl font-bold mb-6 animate-fade-in">
             {t('hero.name')}
           </h1>
           <div className="text-2xl md:text-3xl font-semibold mb-4 text-gradient">

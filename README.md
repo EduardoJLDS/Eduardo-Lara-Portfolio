@@ -1,4 +1,4 @@
-# 🚀 Eduardo José Lara Da Silva - Portfolio Website
+# 🚀 Eduardo Lara Portfolio
 
 A modern, responsive portfolio website showcasing frontend development skills and projects. Built with React, TypeScript, and Tailwind CSS with full internationalization support.
 
