@@ -36,7 +36,7 @@ export default function Hero() {
         <div className="max-w-4xl mx-auto text-center">
           <div className="mb-8 inline-block">
           </div>
-          <h1 className="text-5xl md:text-7xl font-bold mb-6 animate-fade-in">
+          <h1 className="text-5xl md:text-7xl font-bold mb-6 animate-fade-in md:whitespace-nowrap">
             {t('hero.name')}
           </h1>
           <div className="text-2xl md:text-3xl font-semibold mb-4 text-gradient">
