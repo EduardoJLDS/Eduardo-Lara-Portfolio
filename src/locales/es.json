@@ -8,20 +8,20 @@
   },
   "hero": {
     "name": "Eduardo José Lara Da Silva",
-    "title": "Desarrollador Shopify & Frontend | React, TypeScript y Liquid",
-    "description": "Construyendo tiendas Shopify de alta conversión y experiencias web dinámicas con tecnologías modernas. Apasionado por crear interfaces eficientes y pixel-perfect que generan resultados reales para los negocios.",
+    "title": "Desarrollador Full-Stack TypeScript | React, Node.js y Shopify",
+    "description": "Construyo aplicaciones web y experiencias de e-commerce accesibles y mantenibles con React, TypeScript, Node.js y Shopify.",
     "downloadCV": "Descargar CV",
     "seeMyWork": "Ver Mi Trabajo"
   },
   "about": {
     "title": "Acerca de",
     "titleHighlight": "Mí",
-    "description1": "Soy Desarrollador Shopify y Desarrollador Frontend con experiencia práctica construyendo y personalizando tiendas e-commerce de alto rendimiento. Actualmente trabajando en Glyff (Miami), donde he entregado 6+ tiendas Shopify personalizadas para marcas de EE.UU y Latinoamérica.",
-    "description2": "Con experiencia en Shopify Liquid, React, TypeScript y frameworks CSS modernos, transformo los requerimientos de clientes en tiendas online elegantes y optimizadas para conversión. Manejo Shopify CLI, Sections, Blocks, Metafields y las APIs REST y GraphQL de Shopify.",
-    "description3": "Mi enfoque proactivo y atención al detalle garantizan que cada tienda que construyo no solo cumpla los requisitos técnicos, sino que también ofrezca una experiencia de compra excepcional que convierte visitantes en clientes.",
+    "description1": "Soy desarrollador en Buenos Aires con tres años de experiencia profesional construyendo interfaces web y tiendas Shopify para equipos internacionales.",
+    "description2": "Mi stack principal es React, TypeScript y CSS moderno. También trabajo con Node.js, APIs REST, PostgreSQL y Supabase para crear aplicaciones web completas.",
+    "description3": "Valoro la comunicación clara, el código mantenible, la accesibilidad y convertir requerimientos de producto en experiencias confiables.",
     "experience": "Experiencia",
-    "projectsCompleted": "Proyectos Completados",
-    "technologiesMastered": "Tecnologías Dominadas",
+    "professionalFocus": "Enfoque Técnico",
+    "languages": "Idiomas",
     "location": "Ubicación",
     "availableRemote": "Disponible Remoto",
     "highlights": {
@@ -46,20 +46,10 @@
   "skills": {
     "title": "Habilidades y",
     "titleHighlight": "Tecnologías",
-    "description": "Aquí están las tecnologías y herramientas con las que trabajo para crear experiencias web increíbles",
-    "legend": {
-      "expert": "Experto — Uso diario, puedo liderar proyectos",
-      "advanced": "Avanzado — Trabajo cómodo y con autonomía",
-      "intermediate": "Intermedio — Buen dominio, sigo aprendiendo"
-    },
+    "description": "Tecnologías que utilizo en mi trabajo profesional y proyectos personales",
     "categories": {
       "frontend": "Frontend",
       "backend": "Backend y Base de Datos"
-    },
-    "levels": {
-      "expert": "Experto",
-      "advanced": "Avanzado",
-      "intermediate": "Intermedio"
     }
   },
   "experience": {
@@ -72,42 +62,28 @@
       "clorian": {
         "company": "Clorian",
         "position": "Desarrollador Frontend",
-        "period": "2024 - Oct 2025",
-        "location": "Remoto",
-        "description": "Liderando iniciativas de desarrollo frontend, construyendo aplicaciones React escalables con TypeScript. Implementé sistemas de diseño modernos y optimicé el rendimiento en múltiples proyectos.",
+        "period": "Abr 2024 - Sep 2025",
+        "location": "España (Remoto)",
+        "description": "Desarrollé y mantuve aplicaciones web e internas con React, TypeScript y Tauri como parte de un equipo Scrum.",
         "achievements": [
-          "Reduje el tiempo de carga de páginas en un 40% mediante división de código y carga diferida",
-          "Construí una librería de componentes reutilizables utilizada en más de 3 proyectos",
-          "Apliqué Vitest y otras herramientas de testing para asegurar la calidad del código y reducir errores en producción.",
-          "Implementé pipelines CI/CD mejorando la eficiencia de despliegue en un 60%",
-          "Integré APIs externas para enriquecer la funcionalidad de las aplicaciones web, asegurando una comunicación fluida entre el frontend y los servicios de terceros."
-        ]
-      },
-      "lasVillas": {
-        "company": "Las Villas",
-        "position": "Desarrollador Frontend",
-        "period": "2023 - 2024",
-        "location": "Remoto",
-        "description": "Desarrollé aplicaciones web responsivas para plataforma de gestión inmobiliaria. Colaboré con diseñadores y equipos de backend para entregar experiencias de usuario perfectas.",
-        "achievements": [
-          "Rediseñé el dashboard principal mejorando el engagement de usuarios en un 35%",
-          "Integré APIs RESTful para gestión de contenido dinámico",
-          "Implementé diseño responsivo compatible con todos los tamaños de dispositivos",
-          "Reduje reportes de bugs en un 50% mediante pruebas exhaustivas"
+          "Construí interfaces responsivas a partir de requerimientos de producto y diseño",
+          "Contribuí componentes con pocas dependencias a una librería interna",
+          "Utilicé Vitest y otras herramientas para apoyar la calidad del código",
+          "Mantuve y mejoré aplicaciones existentes",
+          "Construí herramientas internas multiplataforma con Tauri"
         ]
       },
       "glyff": {
         "company": "Glyff",
         "position": "Desarrollador Shopify",
-        "period": "Dic 2025 - Presente",
-        "location": "Miami, FL (Remoto)",
-        "description": "Construyendo y personalizando tiendas Shopify de alto rendimiento para clientes internacionales en diversos sectores del e-commerce. Entregando soluciones Shopify end-to-end: desde desarrollo de temas Liquid personalizados hasta integración de aplicaciones y optimización de la tasa de conversión.",
+        "period": "Dic 2023 - Abr 2026",
+        "location": "Estados Unidos (Remoto)",
+        "description": "Construí y personalicé tiendas Shopify para clientes internacionales, desde temas Liquid hasta integraciones con terceros.",
         "achievements": [
-          "Desarrollé y lancé 6+ tiendas Shopify personalizadas para marcas de EE.UU y Latinoamérica, generando crecimiento de ingresos medible",
-          "Construí templates Liquid, secciones y bloques personalizados que permiten a los comerciantes gestionar su contenido sin intervención de desarrollo",
-          "Integré la REST Admin API y la Storefront GraphQL API de Shopify para experiencias dinámicas de catálogo, carrito y checkout",
-          "Optimicé Core Web Vitals y rendimiento de tiendas, alcanzando puntajes 90+ en Google PageSpeed Insights en todos los proyectos",
-          "Colaboré con diseñadores y clientes para entregar storefronts completamente responsivos y pixel-perfect en tiempo y dentro del presupuesto"
+          "Creé secciones Liquid reutilizables y esquemas JSON para administradores",
+          "Integré aplicaciones de Shopify y APIs REST externas",
+          "Construí funcionalidades interactivas con JavaScript moderno",
+          "Trabajé con stakeholders para convertir requerimientos de negocio en funcionalidades de e-commerce"
         ]
       }
     }
@@ -120,10 +96,19 @@
     "clientProject": "Proyecto de Cliente",
     "viewProject": "Ver Tienda",
     "viewCode": "Código",
-    "viewMoreGithub": "Ver Más en GitHub"
+    "viewMoreGithub": "Ver Más en GitHub",
+    "items": {
+      "techGear": "Aplicación de e-commerce con catálogo, controles de cantidad, carrito de compras y pruebas automatizadas, construida con React y TypeScript.",
+      "monarca": "Tienda Shopify para una marca de moda y estilo de vida, con secciones Liquid personalizadas, filtros de productos y una experiencia responsiva.",
+      "twoBrothers": "Tienda Shopify para un negocio de Miami, desarrollada desde el tema Dawn con secciones personalizadas de productos y marca.",
+      "growNation": "Tienda Shopify para una empresa de eventos, con secciones enfocadas en eventos e integraciones con aplicaciones de terceros.",
+      "amoaHealth": "Tienda Shopify de salud y bienestar con secciones personalizadas de suscripción, contenido sobre ingredientes y páginas enfocadas en rendimiento.",
+      "leGrenier": "Tienda Shopify para el mercado chileno con secciones editoriales, filtros de colecciones y un diseño responsivo alineado con la marca.",
+      "mirazu": "Tienda Shopify de moda para el mercado chileno con secciones de lookbook, modales de guía de talles y una página de producto personalizada."
+    }
   },
   "footer": {
-    "description": "Desarrollador Shopify y Frontend apasionado por construir tiendas de alta conversión y experiencias web hermosas y funcionales.",
+    "description": "Desarrollador Full-Stack TypeScript enfocado en experiencias web y de e-commerce claras y confiables.",
     "quickLinks": "Enlaces Rápidos",
     "contact": "Ponerse en Contacto",
     "availability": "Disponible para proyectos freelance y oportunidades de tiempo completo.",

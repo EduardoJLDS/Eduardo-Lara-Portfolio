@@ -1,6 +1,6 @@
-# 🚀 Eduardo Lara Portfolio
+# Eduardo Lara — Developer Portfolio
 
-A modern, responsive portfolio website showcasing frontend development skills and projects. Built with React, TypeScript, and Tailwind CSS with full internationalization support.
+A bilingual, responsive portfolio presenting Eduardo Lara's experience, skills and selected projects. Built with React, TypeScript, Tailwind CSS and Vite.
 
 ## ✨ Features
 
@@ -35,25 +35,26 @@ A modern, responsive portfolio website showcasing frontend development skills an
 ## 🚀 Quick Start
 
 ### Prerequisites
-- Node.js (v18 or higher)
-- npm or yarn
+- Node.js (v20 or higher)
+- Corepack (included with supported Node.js installations)
 
 ### Installation
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/EduardoJLDS/portfolio-web-site.git
-cd portfolio-web-site
+git clone https://github.com/EduardoJLDS/Eduardo-Lara-Portfolio.git
+cd Eduardo-Lara-Portfolio
 ```
 
 2. Install dependencies:
 ```bash
-npm install
+corepack enable
+pnpm install
 ```
 
 3. Start the development server:
 ```bash
-npm run dev
+pnpm dev
 ```
 
 4. Open [http://localhost:5173](http://localhost:5173) in your browser
@@ -61,13 +62,13 @@ npm run dev
 ### Build for Production
 
 ```bash
-npm run build
+pnpm build
 ```
 
 ### Preview Production Build
 
 ```bash
-npm run preview
+pnpm preview
 ```
 
 ## 📁 Project Structure
@@ -97,14 +98,14 @@ This project is optimized for Vercel deployment:
 ### Manual Deployment
 
 ```bash
-npm run build
+pnpm build
 # Deploy the 'dist' folder to your hosting service
 ```
 
 ## 📧 Contact
 
-- **Email**: [edu.jose.lds@gmail.com](mailto:edu.jose.lds@gmail.com)
-- **LinkedIn**: [Eduardo José Lara Da Silva](https://linkedin.com/in/eduardo-josé-lara-da-silva-2b00b4229)
+- **Email**: [eduardojoselara12@gmail.com](mailto:eduardojoselara12@gmail.com)
+- **LinkedIn**: [Eduardo José Lara Da Silva](https://www.linkedin.com/in/eduardojlds/)
 - **GitHub**: [@EduardoJLDS](https://github.com/EduardoJLDS)
 
 ## 📄 License

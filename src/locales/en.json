@@ -8,20 +8,20 @@
   },
   "hero": {
     "name": "Eduardo José Lara Da Silva",
-    "title": "Shopify & Frontend Developer | React, TypeScript & Liquid",
-    "description": "Building high-converting Shopify storefronts and dynamic web experiences with modern technologies. Passionate about crafting performant, pixel-perfect interfaces that drive real business results.",
+    "title": "Full-Stack TypeScript Developer | React, Node.js & Shopify",
+    "description": "I build accessible, maintainable web applications and e-commerce experiences with React, TypeScript, Node.js and Shopify.",
     "downloadCV": "Download CV",
     "seeMyWork": "See My Work"
   },
   "about": {
     "title": "About",
     "titleHighlight": "Me",
-    "description1": "I'm a Shopify Developer and Frontend Engineer with hands-on experience building and customizing high-performance e-commerce storefronts. Currently working at Glyff (Miami), I've delivered 6+ custom Shopify stores for US and Latin American brands.",
-    "description2": "With expertise in Shopify Liquid, React, TypeScript, and modern CSS frameworks, I transform client requirements into elegant, conversion-optimized online stores. Proficient in Shopify CLI, Sections, Blocks, Metafields, and REST & GraphQL APIs.",
-    "description3": "My proactive approach and attention to detail ensure that every storefront I build not only meets technical requirements but also delivers an exceptional shopping experience that converts visitors into customers.",
+    "description1": "I'm a developer based in Buenos Aires with three years of professional experience building web interfaces and Shopify storefronts for international teams.",
+    "description2": "My core stack is React, TypeScript and modern CSS. I also work with Node.js, REST APIs, PostgreSQL and Supabase to build complete web applications.",
+    "description3": "I care about clear communication, maintainable code, accessibility and turning product requirements into reliable user experiences.",
     "experience": "Experience",
-    "projectsCompleted": "Projects Completed",
-    "technologiesMastered": "Technologies Mastered",
+    "professionalFocus": "Technical Focus",
+    "languages": "Languages",
     "location": "Location",
     "availableRemote": "Available Remote",
     "highlights": {
@@ -46,20 +46,10 @@
   "skills": {
     "title": "Skills &",
     "titleHighlight": "Technologies",
-    "description": "Here are the technologies and tools I work with to create amazing web experiences",
-    "legend": {
-      "expert": "Expert — Daily use, can lead projects",
-      "advanced": "Advanced — Work comfortably and autonomously",
-      "intermediate": "Intermediate — Good command, still learning"
-    },
+    "description": "Technologies I use in professional work and personal projects",
     "categories": {
       "frontend": "Frontend",
       "backend": "Backend & Database"
-    },
-    "levels": {
-      "expert": "Expert",
-      "advanced": "Advanced",
-      "intermediate": "Intermediate"
     }
   },
   "experience": {
@@ -72,42 +62,28 @@
       "clorian": {
         "company": "Clorian",
         "position": "Frontend Developer",
-        "period": "2024 - Oct 2025",
-        "location": "Remote",
-        "description": "Leading frontend development initiatives, building scalable React applications with TypeScript. Implemented modern design systems and optimized performance across multiple projects.",
+        "period": "Apr 2024 - Sep 2025",
+        "location": "Spain (Remote)",
+        "description": "Developed and maintained web and internal applications with React, TypeScript and Tauri as part of a Scrum team.",
         "achievements": [
-          "Reduced page load time by 40% through code splitting and lazy loading",
-          "Built reusable component library used across 3+ projects",
-          "Applied Vitest and other testing tools to guarantee code quality and reduce production errors.",
-          "Implemented CI/CD pipelines improving deployment efficiency by 60%",
-          "Integrated external APIs to enrich web application functionality, ensuring smooth communication between frontend and backend systems"
-        ]
-      },
-      "lasVillas": {
-        "company": "Las Villas",
-        "position": "Frontend Developer",
-        "period": "2023 - 2024",
-        "location": "Remote",
-        "description": "Developed responsive web applications for real estate management platform. Collaborated with designers and backend teams to deliver seamless user experiences.",
-        "achievements": [
-          "Redesigned main dashboard improving user engagement by 35%",
-          "Integrated RESTful APIs for dynamic content management",
-          "Implemented responsive design supporting all device sizes",
-          "Reduced bug reports by 50% through comprehensive testing"
+          "Built responsive interfaces from product and design requirements",
+          "Contributed low-dependency components to an internal component library",
+          "Used Vitest and related testing tools to support code quality",
+          "Maintained and improved existing applications",
+          "Built cross-platform internal tooling with Tauri"
         ]
       },
       "glyff": {
         "company": "Glyff",
         "position": "Shopify Developer",
-        "period": "Dec 2025 - Present",
-        "location": "Miami, FL (Remote)",
-        "description": "Building and customizing high-performance Shopify storefronts for international clients across diverse e-commerce verticals. Delivering end-to-end Shopify solutions — from custom Liquid theme development to third-party app integrations and conversion rate optimization.",
+        "period": "Dec 2023 - Apr 2026",
+        "location": "United States (Remote)",
+        "description": "Built and customized Shopify storefronts for international clients, from Liquid theme development to third-party integrations.",
         "achievements": [
-          "Developed and launched 6+ custom Shopify storefronts for US and Latin American brands, driving measurable revenue growth",
-          "Built custom Liquid templates, sections, and blocks enabling merchants to manage content autonomously without developer intervention",
-          "Integrated Shopify REST Admin API and Storefront GraphQL API for dynamic catalog, cart, and checkout experiences",
-          "Optimized Core Web Vitals and store performance, achieving 90+ scores on Google PageSpeed Insights across all projects",
-          "Collaborated with designers and clients to deliver pixel-perfect, fully responsive storefronts on time and within scope"
+          "Created reusable Liquid sections and JSON schemas for store administrators",
+          "Integrated third-party Shopify apps and external REST APIs",
+          "Built interactive storefront features with modern JavaScript",
+          "Worked with stakeholders to translate business requirements into e-commerce functionality"
         ]
       }
     }
@@ -120,10 +96,19 @@
     "clientProject": "Client Project",
     "viewProject": "Live Site",
     "viewCode": "Code",
-    "viewMoreGithub": "View More on GitHub"
+    "viewMoreGithub": "View More on GitHub",
+    "items": {
+      "techGear": "E-commerce application with a product catalog, quantity controls, shopping cart and automated tests, built with React and TypeScript.",
+      "monarca": "Shopify storefront for a fashion and lifestyle brand, featuring custom Liquid sections, product filtering and a responsive shopping experience.",
+      "twoBrothers": "Shopify storefront for a Miami-based business, developed from the Dawn theme with tailored product and brand sections.",
+      "growNation": "Shopify storefront for an events company with event-focused landing sections and third-party application integrations.",
+      "amoaHealth": "Health and wellness Shopify storefront with custom subscription sections, ingredient storytelling layouts and performance-conscious pages.",
+      "leGrenier": "Shopify store for the Chilean market with editorial sections, collection filtering and a responsive layout aligned with the brand.",
+      "mirazu": "Fashion Shopify storefront for the Chilean market with lookbook sections, size-guide modals and a tailored product-page layout."
+    }
   },
   "footer": {
-    "description": "Shopify & Frontend Developer passionate about building high-converting storefronts and beautiful web experiences.",
+    "description": "Full-stack TypeScript developer building clear, reliable web and e-commerce experiences.",
     "quickLinks": "Quick Links",
     "contact": "Get In Touch",
     "availability": "Available for freelance projects and full-time opportunities.",

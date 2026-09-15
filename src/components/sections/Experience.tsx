@@ -27,15 +27,6 @@ const Experience: React.FC = () => {
         description: t('experience.experiences.clorian.description'),
         achievements: getAchievements('clorian'),
         technologies: ['React', 'TypeScript', 'SASS', 'Vitest', 'Tauri']
-      },
-      {
-        company: t('experience.experiences.lasVillas.company'),
-        position: t('experience.experiences.lasVillas.position'),
-        period: t('experience.experiences.lasVillas.period'),
-        location: t('experience.experiences.lasVillas.location'),
-        description: t('experience.experiences.lasVillas.description'),
-        achievements: getAchievements('lasVillas'),
-        technologies: ['React', 'JavaScript', 'Redux', 'Material-UI', 'REST APIs']
       }
     ];
   };

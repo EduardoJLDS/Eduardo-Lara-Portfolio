@@ -1,24 +1,14 @@
-import { createContext, useState, useEffect, ReactNode } from 'react';
+import { useState, useEffect, ReactNode } from 'react';
 import enTranslations from '../locales/en.json';
 import esTranslations from '../locales/es.json';
-
-export type Language = 'en' | 'es';
+import { LanguageContext, LanguageContextType, Language } from './LanguageContext';
 
 type Translations = typeof enTranslations;
-
-export interface LanguageContextType {
-  language: Language;
-  setLanguage: (language: Language) => void;
-  t: (key: string) => string;
-  tArray: (key: string) => string[];
-}
 
 const translations: Record<Language, Translations> = {
   en: enTranslations,
   es: esTranslations,
 };
-
-export const LanguageContext = createContext<LanguageContextType | undefined>(undefined);
 
 interface LanguageProviderProps {
   children: ReactNode;
@@ -32,6 +22,7 @@ export function LanguageProvider({ children }: LanguageProviderProps) {
 
   useEffect(() => {
     localStorage.setItem('portfolio-language', language);
+    document.documentElement.lang = language;
   }, [language]);
 
   const t = (key: string): string => {

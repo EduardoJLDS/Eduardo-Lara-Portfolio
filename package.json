@@ -1,9 +1,10 @@
 {
-  "name": "eduardo-lara-portfolio",
+  "name": "eduardo-lara-dev",
   "private": true,
   "version": "1.0.0",
-  "description": "Personal portfolio website showcasing frontend development skills",
+  "description": "Bilingual developer portfolio for Eduardo Lara",
   "author": "Eduardo José Lara Da Silva",
+  "packageManager": "pnpm@10.18.2",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -25,7 +26,6 @@
     "@eslint/js": "^9.9.1",
     "@types/react": "^19.2.2",
     "@types/react-dom": "^19.2.2",
-    "@types/react-i18next": "^8.1.0",
     "@vitejs/plugin-react": "^4.3.1",
     "autoprefixer": "^10.4.21",
     "eslint": "^9.38.0",

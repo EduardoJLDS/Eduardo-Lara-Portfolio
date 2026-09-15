@@ -23,7 +23,7 @@ const { t } = useLanguage();
   }[] = [
     {
       title: "Tech & Gear Emporium",
-      description: "Modern e-commerce application for tech products featuring interactive shopping cart, product catalog with quantity selection, and comprehensive testing suite. Built with React and TypeScript for optimal performance and type safety.",
+      description: t('projects.items.techGear'),
       image: techGearImage,
       technologies: ["React", "TypeScript", "Zustand", "Vitest", "Testing Library", "CSS3", "Vite", "ESLint"],
       github: "https://github.com/EduardoJLDS/Tech---Gear-Emporium",
@@ -32,7 +32,7 @@ const { t } = useLanguage();
     },
     {
       title: "Monarca UL JE",
-      description: "Custom Shopify storefront for a fashion & lifestyle brand. Built a fully custom Liquid theme with bespoke sections, dynamic product filtering, and a seamless checkout experience optimized for conversion.",
+      description: t('projects.items.monarca'),
       image: monarcaImage,
       technologies: ["Shopify", "Liquid", "JavaScript", "CSS3 / SCSS", "Shopify CLI", "Metafields"],
       demo: "https://monarcaulje.com/",
@@ -40,7 +40,7 @@ const { t } = useLanguage();
     },
     {
       title: "Two Brothers Miami",
-      description: "Shopify storefront for a Miami-based business. Developed a custom Dawn-based theme with tailored sections for product showcasing, brand storytelling, and a mobile-first responsive layout.",
+      description: t('projects.items.twoBrothers'),
       image: twoBrothersImage,
       technologies: ["Shopify", "Liquid", "JavaScript", "CSS3", "Dawn Theme", "Shopify CLI"],
       demo: "https://twobrothersmiami.com/",
@@ -48,7 +48,7 @@ const { t } = useLanguage();
     },
     {
       title: "Grow Nation Events",
-      description: "E-commerce platform for an events company built on Shopify. Implemented custom ticketing product types, event-focused landing sections, and integrated third-party apps for event management.",
+      description: t('projects.items.growNation'),
       image: growNationImage,
       technologies: ["Shopify", "Liquid", "JavaScript", "CSS3", "Shopify APIs", "Third-party Apps"],
       demo: "https://www.grownationevents.com/",
@@ -56,7 +56,7 @@ const { t } = useLanguage();
     },
     {
       title: "Amoa Health",
-      description: "Health & wellness Shopify storefront built for conversion. Features custom subscription product sections, ingredient storytelling layouts, and performance-optimized pages with 90+ PageSpeed scores.",
+      description: t('projects.items.amoaHealth'),
       image: amoaHealthImage,
       technologies: ["Shopify", "Liquid", "JavaScript", "CSS3 / SCSS", "Shopify CLI", "Metafields"],
       demo: "https://amoahealth.com/",
@@ -64,7 +64,7 @@ const { t } = useLanguage();
     },
     {
       title: "Le Grenier",
-      description: "Curated lifestyle Shopify store for the Chilean market. Delivered a custom Liquid theme with elegant editorial sections, collection filtering, and a fully responsive design tailored to the brand identity.",
+      description: t('projects.items.leGrenier'),
       image: leGrenierImage,
       technologies: ["Shopify", "Liquid", "JavaScript", "CSS3", "Shopify CLI", "Dawn Theme"],
       demo: "https://www.legrenier.cl/",
@@ -72,7 +72,7 @@ const { t } = useLanguage();
     },
     {
       title: "Mirazu",
-      description: "Fashion brand Shopify storefront for the Chilean market. Developed a custom theme with lookbook sections, size guide modals, and an optimized product page layout to maximize add-to-cart conversions.",
+      description: t('projects.items.mirazu'),
       image: mirazuImage,
       technologies: ["Shopify", "Liquid", "JavaScript", "CSS3 / SCSS", "Shopify CLI", "Metaobjects"],
       demo: "https://www.mirazu.cl/",

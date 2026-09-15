@@ -1,6 +1,6 @@
 import { Globe } from 'lucide-react';
 import { useLanguage } from '../../hooks';
-import type { Language } from '../../context/LanguageProvider';
+import type { Language } from '../../context/LanguageContext';
 
 export default function LanguageToggle() {
   const { language, setLanguage } = useLanguage();

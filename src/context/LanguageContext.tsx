@@ -1,5 +1,15 @@
-import { useContext } from 'react';
-import { LanguageContext, LanguageContextType } from './LanguageProvider';
+import { createContext, useContext } from 'react';
+
+export type Language = 'en' | 'es';
+
+export interface LanguageContextType {
+  language: Language;
+  setLanguage: (language: Language) => void;
+  t: (key: string) => string;
+  tArray: (key: string) => string[];
+}
+
+export const LanguageContext = createContext<LanguageContextType | undefined>(undefined);
 
 export function useLanguage(): LanguageContextType {
   const context = useContext(LanguageContext);

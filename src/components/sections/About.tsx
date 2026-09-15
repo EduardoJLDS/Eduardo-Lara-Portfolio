@@ -58,13 +58,13 @@ export default function About() {
                 </div>
                 <div className="h-px bg-gradient-to-r from-transparent via-gray-700 to-transparent"></div>
                 <div className="flex justify-between items-center">
-                  <span className="text-gray-300">{t('about.projectsCompleted')}</span>
-                  <span className="text-primary-400 font-semibold">15+</span>
+                  <span className="text-gray-300">{t('about.professionalFocus')}</span>
+                  <span className="text-primary-400 font-semibold">React · Node.js</span>
                 </div>
                 <div className="h-px bg-gradient-to-r from-transparent via-gray-700 to-transparent"></div>
                 <div className="flex justify-between items-center">
-                  <span className="text-gray-300">{t('about.technologiesMastered')}</span>
-                  <span className="text-primary-400 font-semibold">18+</span>
+                  <span className="text-gray-300">{t('about.languages')}</span>
+                  <span className="text-primary-400 font-semibold">ES · EN</span>
                 </div>
                 <div className="h-px bg-gradient-to-r from-transparent via-gray-700 to-transparent"></div>
                 <div className="flex justify-between items-center">
