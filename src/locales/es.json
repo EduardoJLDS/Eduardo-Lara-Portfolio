@@ -59,10 +59,24 @@
     "keyAchievements": "Logros Principales:",
     "technologiesUsed": "Tecnologías Utilizadas:",
     "experiences": {
+      "wpp": {
+        "company": "WPP Production",
+        "position": "Desarrollador Frontend (Freelance)",
+        "period": "Ago 2026 - Sep 2026",
+        "location": "Buenos Aires, Argentina (Híbrido)",
+        "description": "Trabajé en una asignación freelance temporal desarrollando páginas web para clientes internacionales confidenciales y colaborando con equipos distribuidos en distintas regiones.",
+        "achievements": [
+          "Construí páginas e interfaces web responsivas con HTML y CSS",
+          "Utilicé aplicaciones internas y SVN para apoyar los flujos de control de versiones y gestión de errores",
+          "Ayudé a crear y mantener scripts en Python que facilitaron la gestión de versiones y el seguimiento de errores",
+          "Colaboré en inglés con diseñadores, desarrolladores y stakeholders distribuidos internacionalmente",
+          "Trabajé con información confidencial y seguí procesos internos para marcas reconocidas internacionalmente"
+        ]
+      },
       "clorian": {
-        "company": "Clorian",
+        "company": "Clorian Ticketing",
         "position": "Desarrollador Frontend",
-        "period": "Abr 2024 - Sep 2025",
+        "period": "Abr 2024 - Nov 2025",
         "location": "España (Remoto)",
         "description": "Desarrollé y mantuve aplicaciones web e internas con React, TypeScript y Tauri como parte de un equipo Scrum.",
         "achievements": [
@@ -74,9 +88,9 @@
         ]
       },
       "glyff": {
-        "company": "Glyff",
-        "position": "Desarrollador Shopify",
-        "period": "Dic 2023 - Abr 2026",
+        "company": "Glyff Agency",
+        "position": "Desarrollador Frontend Shopify",
+        "period": "Dic 2025 - Abr 2026",
         "location": "Estados Unidos (Remoto)",
         "description": "Construí y personalicé tiendas Shopify para clientes internacionales, desde temas Liquid hasta integraciones con terceros.",
         "achievements": [

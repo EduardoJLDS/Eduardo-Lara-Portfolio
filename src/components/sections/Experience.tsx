@@ -6,10 +6,19 @@ const Experience: React.FC = () => {
 
   const getExperiences = () => {
     const getAchievements = (companyKey: string): string[] => {
-    const achievementsKey = `experience.experiences.${companyKey}.achievements`;
-    return tArray(achievementsKey);
-  };
+      const achievementsKey = `experience.experiences.${companyKey}.achievements`;
+      return tArray(achievementsKey);
+    };
     return [
+      {
+        company: t('experience.experiences.wpp.company'),
+        position: t('experience.experiences.wpp.position'),
+        period: t('experience.experiences.wpp.period'),
+        location: t('experience.experiences.wpp.location'),
+        description: t('experience.experiences.wpp.description'),
+        achievements: getAchievements('wpp'),
+        technologies: ['HTML', 'CSS', 'Python', 'SVN']
+      },
       {
         company: t('experience.experiences.glyff.company'),
         position: t('experience.experiences.glyff.position'),

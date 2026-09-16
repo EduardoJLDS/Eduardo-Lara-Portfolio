@@ -59,10 +59,24 @@
     "keyAchievements": "Key Achievements:",
     "technologiesUsed": "Technologies Used:",
     "experiences": {
+      "wpp": {
+        "company": "WPP Production",
+        "position": "Frontend Developer (Freelance)",
+        "period": "Aug 2026 - Sep 2026",
+        "location": "Buenos Aires, Argentina (Hybrid)",
+        "description": "Worked on a temporary freelance assignment developing web pages for confidential international clients and collaborating with distributed teams across multiple regions.",
+        "achievements": [
+          "Built responsive web pages and interfaces using HTML and CSS",
+          "Used proprietary internal applications and SVN to support version control and issue-management workflows",
+          "Helped create and maintain Python scripts that facilitated version-management and error-tracking processes",
+          "Collaborated in English with distributed designers, developers and project stakeholders",
+          "Handled confidential client information and followed internal processes for internationally recognized brands"
+        ]
+      },
       "clorian": {
-        "company": "Clorian",
+        "company": "Clorian Ticketing",
         "position": "Frontend Developer",
-        "period": "Apr 2024 - Sep 2025",
+        "period": "Apr 2024 - Nov 2025",
         "location": "Spain (Remote)",
         "description": "Developed and maintained web and internal applications with React, TypeScript and Tauri as part of a Scrum team.",
         "achievements": [
@@ -74,9 +88,9 @@
         ]
       },
       "glyff": {
-        "company": "Glyff",
-        "position": "Shopify Developer",
-        "period": "Dec 2023 - Apr 2026",
+        "company": "Glyff Agency",
+        "position": "Shopify Frontend Developer",
+        "period": "Dec 2025 - Apr 2026",
         "location": "United States (Remote)",
         "description": "Built and customized Shopify storefronts for international clients, from Liquid theme development to third-party integrations.",
         "achievements": [
